@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- css link -->
+    <!-- <link rel="stylesheet" href="/css/userlist.css"> -->
+
+
+    <link rel="stylesheet" href="/css/Adminlayout.css">
+
+
+   
+    <!-- font-awesome link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet" />
+    <title>userlist</title>
+</head>
+
+<body>
+
+
+
+    <div class="sidebar">
+        <div class="logo-details">
+            <img src="/Images/logo.jpg" alt="company logo">
+            <span class="logo_name"  > Acharaya</span>
+        </div>
+        <ul class="nav-links">
+            <li  class="subheader">
+            <label>Navigation</label>
+            </li>
+            <li>
+                <a href="/html/AdminDashboard.html" class="icon" >
+                    <i class="fas fa-home "></i>
+                    <span class="link_name " >Home</span>
+                </a>
+                <ul class="sub-menu blank" >
+                    <li>
+                        <a href="/html/AdminDashboard.html" class="link_name" >Home</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+             <div class="icon-link icon " >
+                <a href="#" ">
+                    <i class="fas fa-tasks icon"></i>
+                    <span class="link_name" >User</span>
+    
+                </a>
+                <i class="fa fa-chevron-right arrow"></i>
+    
+             </div>
+             <ul class="sub-menu link" >
+                <li  class="subheader" >
+                    <label>Table</label>
+                </li>
+                <li>
+                    <a href="#" class="link_name" >User</a>
+                </li>
+                 <li>
+                    <a href="/html/AdminUserList.html" >UserList</a>
+                </li>
+                <!-- <li  class="subheader" >
+                    <label>Table</label>
+                </li> -->
+                <!-- <li>
+                    <a href="/html/Adminviewtask.html" >View Task</a>
+                </li> -->
+             
+             </ul>
+            </li>
+
+            <li>
+                <div class="icon-link icon" >
+                   <a href="#" class="icon">
+                    <i class="fas fa-briefcase icon"></i>
+                       <span class="link_name" >Family</span>
+       
+                   </a>
+                   <i class="fa fa-chevron-right arrow"></i>
+       
+                </div>
+                <ul class="sub-menu  link" >
+                 
+                    <li>
+                        <a  class="link_name" >Family</a>
+                    </li>
+                    <li  class="subheader" >
+                        <label>Table</label>
+                    </li>
+                       <li>
+                        <a href="/html/Adminviewtaskcategory.html" >Family List</a>
+                    </li>
+                
+                    <li  class="subheader" >
+                        <label>Design</label>
+                    </li>
+                    <li>
+                       <a href="/html/Admincreatetaskcatgory.html" >Family Tree</a>
+                   </li>
+               
+                
+                </ul>
+               </li>
+               <li>
+
+                <div class="profile-details">
+                    <div class="profile-content">
+                        <img src="/Images/profile.jpg" alt="profile">
+                    </div>
+                    
+                        <div class="name-job">
+                            <div class="profile_name">
+                                Mananjay 
+                            </div>
+                            <div class="job">
+                                Frontend Developer
+                            </div>
+                            
+                        </div>
+                        <i class="fas fa-sign-out-alt"></i>
+        
+               
+                </div>
+            </li>
+    
+        </ul>
+    
+    </div>
+
+    <section class="home-section" >
+        <div  class="navbar" >
+            <div class="main-container-sidebar-section">
+                <button class="main-container-sidebar-btn sidebarOpen "><i class="fas fa-bars"></i></button>
+            </div>
+            <div class="main-container-image-section">
+                <span>Mananjay Shrestha</span>
+                <img src="/Images/profile.jpg" alt="userimage">
+            </div>
+        </div>
+           <!-- logout section start -->
+           <div class="main-container-logout-section">
+            <!-- userlist-user-profile-img start here -->
+            <div class="main-container-user-profile-img">
+                <img src="/Images/profile.jpg" alt="userimage">
+                <button class="main-container-logout-section-close-btn"><i class="fas fa-times"></i></button>
+            </div>
+            <!-- userlist-user-profile-img start here -->
+            <h3>Mananjay Shrestha</h3>
+            <h3 class="main-container-user-email">Mananjaysth111@gmail.com</h3>
+            <button class="main-container-manage-account" >
+                <a href="profile.html">Manage Your Account</a>
+                </button>
+            <button class="main-container-logout-btn" onclick="newDoc()">Sign Out</button>
+            <!-- userlist-logout-footer-section start here -->
+            <div class="main-container-logout-footer-section">
+                <h3>Privacy Policy</h3>
+            </div>
+            <!-- userlist-logout-footer-section end here -->
+        </div>
+        <!-- logout section end -->
+        <div class="home-container-section">
+           
+                                <!-- footersection -->
+
+        <div class="footer-section">
+            <div class="footer-container-section">
+                <div class="logo-section">                        
+                    <h3>Silicon Soft and IT Consulant Pvt.Ltd<h3>
+                </div>
+             
+                <div class="logo-section">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h5>Silicon Soft and IT Consulant Pvt.Ltd</h5>
+                </div>
+                <div class="logo-section">
+                    <i class="fas fa-envelope"></i>
+                
+                    <h5>
+                        siliconsoftnepal@gmail.com / info@siliconsoftnepal.org.np</h5>
+                </div>   
+            </div>
+            <div class="footer-container-section second">
+                <img src="/Images/companylogo.png" alt="userimage">
+                <p>Copyright ©2022 Silicon Soft and I.T. Consultant Pvt. Ltd.
+                    .</p>
+            </div>
+            <div class="footer-container-section third">
+                <div class="logo-section" >
+                    <h3>More Detail:</h3>
+               </div>
+                  <div class="logo-section">
+                   <i class="fas fa-user"></i>
+                   <h5>Manjil Acharaya</h5>
+                  </div>
+                  <div class="logo-section">
+                   <i class="fas fa-id-card"></i>
+                    <h5>9843415029/9802760599</h5>
+                  </div>
+            </div>
+        </div>
+        <!-- footer end  -->
+  
+        </div>
+ 
+
+
+
+    </section>
+    
+</body>
+<script src="/Javascript/adminlayout.js"></script>
+
+</html>
